@@ -10,7 +10,7 @@ function NavBar() {
       {[false].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="navbar" fixed='top' variant='light'>
           <Container fluid>
-            <Navbar.Brand >Safe Pass Display</Navbar.Brand>
+            <h1><Navbar.Brand >Safe Pass Display</Navbar.Brand></h1>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`} placement="end">
@@ -21,8 +21,9 @@ function NavBar() {
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/Inspiration">Inspiration</Nav.Link>
+                  <Nav.Link href="/Mission">Our Mission</Nav.Link>
                   <NavDropdown title="More" id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                    <NavDropdown.Item href="/CodeLink">Code Link</NavDropdown.Item>
+                    <NavDropdown.Item href="/CodeLink">Code Link (Coming Soon!)</NavDropdown.Item>
                     <NavDropdown.Item href="/AboutUs">Meet The Team!</NavDropdown.Item>
                   </NavDropdown>
                   <NavDropdown title="Documents" id={`offcanvasNavbarDropdown-expand-${expand}`}>
@@ -32,6 +33,10 @@ function NavBar() {
                     <NavDropdown.Item href="https://docs.google.com/presentation/d/1CQ-USjTWv_PXqwagODrE78_PqDTPUo0i/edit?usp=sharing&ouid=110508737854526241767&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">Symposium Poster Presentation</NavDropdown.Item>
                     <NavDropdown.Item href="https://docs.google.com/presentation/d/1KgFQIsgof9Bq63BIUb8cQamB_TOyWb9xGzs2lZqZiVA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Midterm Presentation</NavDropdown.Item>
                   </NavDropdown>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <img src='./images/Schedule.png' alt=''></img>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

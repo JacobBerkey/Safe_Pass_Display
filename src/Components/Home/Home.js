@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Home() {
   return (
+    <div>
     <Carousel>
       <Carousel.Item interval={2000}>
         <img
@@ -33,7 +34,28 @@ function Home() {
           <p>Edit Me</p>
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          src='./images/Home4.png'
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Fourth slide label</h3>
+          <p>Edit Me</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          src='./images/Home2.png'
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Fifth slide label</h3>
+          <p>Edit Me</p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 export default Home;

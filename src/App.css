@@ -24,23 +24,17 @@
 .Carousel.Item{
   object-fit: fill;
 }
-.app{
-  background: radial-gradient(circle at 10% 20%, rgb(69, 86, 102) 0%, rgb(34, 34, 34) 90%);
-  margin-bottom: 0;
-}
 .email{
   text-align: center;
 }
 .carousel-item img{
-  width: stretch;
-  max-height: 1080px;
-  margin: auto; 
+  width: 1080px;
+  height: 580px;
   display: block;
 }
 body {
   padding: 0;
   margin: 0;
-  background-color: #000!important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +42,16 @@ body {
 }
 h1 {
   color: hsl(0, 0%, 28%);
-  font-size: 50px!important;
+  font-size: 30px!important;
+  font-weight: bold!important;
+  font-family: monospace;
+  letter-spacing: 7px!important;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+h2 {
+  color: hsl(0, 0%, 28%);
+  font-size: 30px!important;
   font-weight: bold!important;
   font-family: monospace;
   letter-spacing: 7px!important;
@@ -60,7 +63,14 @@ h1 {
   background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 3s infinite linear;
+  animation: shine 4s infinite linear;
+}
+h2 {
+  justify-content: center;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s infinite linear;
 }
 @keyframes shine {
   0% {
@@ -72,4 +82,53 @@ h1 {
   100% {
     background-position: 600px;
   }
+}
+
+h2{
+  text-align: center;
+}
+
+.center{
+  display: block;
+  justify-content: left;
+  align-items: left;
+}
+
+.inspiration{
+  max-height: 350px;
+  max-width: 350px;
+  display:block;
+}
+.inspiration2{
+  max-height: 350px;
+  max-width: 350px;
+  display:flex;
+  float: right;
+}
+
+p1{
+  font-family: mr bedfort !important; 
+  line-height: 2em;
+  letter-spacing: .03em;
+}
+p2{
+  font-family: mr bedfort !important; 
+  line-height: 2em;
+  letter-spacing: .03em;
+}
+p3{
+  font-family: mr bedfort !important; 
+  line-height: 2em;
+  letter-spacing: .03em;
+}
+p4{
+  font-family: mr bedfort !important; 
+  line-height: 2em;
+  letter-spacing: .03em;
+  text-align: center;
+}
+
+.inspobackground{
+  background: radial-gradient(circle at 10% 20%, rgb(253, 193, 104) 0%, rgb(251, 128, 128) 90%);
+
 }
