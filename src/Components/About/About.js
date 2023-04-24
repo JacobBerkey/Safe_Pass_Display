@@ -9,10 +9,10 @@ function AboutUs() {
       <Card>
         <Card.Img variant="top" src='./images/Image4.png' />
         <Card.Body>
-          <Card.Title className='textheader'>Luke Glenn</Card.Title>
-          <Card.Text className='text'>Dept. of  Electrical and Computer Engineering</Card.Text>
-          <Card.Text className='text'>Georgia Southern University</Card.Text>
-          <Card.Text className='text'>Statesboro, USA</Card.Text>
+        <h2><Card.Title className='textheader'>Luke Glenn</Card.Title></h2>
+        <p4><Card.Text>Dept. of  Electrical and Computer Engineering</Card.Text></p4>
+        <p4><Card.Text>Georgia Southern University</Card.Text></p4>
+          <p4><Card.Text>Statesboro, USA</Card.Text></p4>
         </Card.Body>
         <Card.Footer>
         <Card.Text className='email'><a href="mailto:lg10422@georgiasouthern.edu">Send Email</a></Card.Text>
@@ -21,10 +21,10 @@ function AboutUs() {
       <Card>
         <Card.Img variant="top" src= './images/Image1.png'/>
         <Card.Body>
-          <Card.Title className='textheader'>Chase Haggard</Card.Title>
-          <Card.Text className='text'>Dept. of  Electrical and Computer Engineering</Card.Text>
-          <Card.Text className='text'>Georgia Southern University</Card.Text>
-          <Card.Text className='text'>Statesboro, USA</Card.Text>
+          <h2><Card.Title>Chase Haggard</Card.Title></h2>
+          <p4><Card.Text>Dept. of  Electrical and Computer Engineering</Card.Text></p4>
+          <p4><Card.Text>Georgia Southern University</Card.Text></p4>
+          <p4><Card.Text>Statesboro, USA</Card.Text></p4>
         </Card.Body>
         <Card.Footer>
         <Card.Text className='email'><a href="mailto:ch29174@georgiasouthern.edu">Send Email</a></Card.Text>
@@ -33,10 +33,10 @@ function AboutUs() {
       <Card>
         <Card.Img variant="top" src='./images/Image3.png'/>
         <Card.Body>
-        <Card.Title className='textheader'>Joyel Brimidge </Card.Title>
-          <Card.Text className='text'>Dept. of  Electrical and Computer Engineering</Card.Text>
-          <Card.Text className='text'>Georgia Southern University</Card.Text>
-          <Card.Text className='text'>Statesboro, USA</Card.Text>
+        <h2><Card.Title>Joyel Brimidge </Card.Title></h2>
+        <p4><Card.Text>Dept. of  Electrical and Computer Engineering</Card.Text></p4>
+        <p4><Card.Text>Georgia Southern University</Card.Text></p4>
+        <p4><Card.Text>Statesboro, USA</Card.Text></p4>
         </Card.Body>
         <Card.Footer>
         <Card.Text className='email'><a href="mailto:jb52788@georgiasouthern.edu">Send Email</a></Card.Text>
@@ -45,10 +45,10 @@ function AboutUs() {
       <Card >
         <Card.Img variant="top" src="./images/Image2.png"/>
         <Card.Body>
-        <Card.Title className='textheader'>Rayan Alhabardi</Card.Title>
-          <Card.Text className='text'>Dept. of  Electrical and Computer Engineering</Card.Text>
-          <Card.Text className='text'>Georgia Southern University</Card.Text>
-          <Card.Text className='text'>Statesboro, USA</Card.Text>
+        <h2><Card.Title className='textheader'>Rayan Alhabardi</Card.Title></h2>
+        <p4><Card.Text>Dept. of  Electrical and Computer Engineering</Card.Text></p4>
+        <p4><Card.Text>Georgia Southern University</Card.Text></p4>
+        <p4><Card.Text>Statesboro, USA</Card.Text></p4>
         </Card.Body>
         <Card.Footer>
         <Card.Text className='email'><a href="mailto:ra0787@georgiasouthern.edu">Send Email</a></Card.Text>

@@ -1,7 +1,7 @@
 
 function InspirationInfo() {
   return (
-    <div className='inspobackground'>
+    <div>
       <br></br>
       <br></br>
       <img className='inspiration' src='/images/electronics3.png' alt='/'></img>
@@ -11,7 +11,6 @@ function InspirationInfo() {
           The next step was to test and install the components required to run the Safe Pass Display system.</p1>
       <br></br>
       <img className='inspiration2' src='/images/electronics1.png' alt='/'></img>
-      <br></br>
       <br></br>
       <br></br>
       <br></br>
